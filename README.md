@@ -30,7 +30,8 @@ Program ini ialah aplikasi Java untuk melakukan sebuah program CRUD sederhana un
 
 4. Acces Modifier
 - Salah satunya disediakan getter & setter public: supaya class lain (misalnya ReservationService) tetap bisa mengambil/mengubah data dengan cara yang benar.
- <img width="699" height="794" alt="image" src="https://github.com/user-attachments/assets/e21edb99-7060-452d-92c1-dd527d3c6a7d" />
+ <img width="493" height="80" alt="image" src="https://github.com/user-attachments/assets/8828559e-e42d-46eb-b276-a94cefa62cbd" />
+
 
 
 ## Penerapan Nilai Tambah
