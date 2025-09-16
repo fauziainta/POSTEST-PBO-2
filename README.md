@@ -29,17 +29,54 @@ Program ini ialah aplikasi Java untuk melakukan sebuah program CRUD sederhana un
 
 
 4. Acces Modifier
-
-
-
+- Salah satunya disediakan getter & setter public: supaya class lain (misalnya ReservationService) tetap bisa mengambil/mengubah data dengan cara yang benar.
+ <img width="495" height="127" alt="image" src="https://github.com/user-attachments/assets/9b6ad88f-0cd6-4b2f-ae45-98681aaddcc7" />
 
 ## Penerapan Nilai Tambah
 1. Validasi Input
-- Input tidak boleh kosong.
-- Input angka (menu, pilihan waktu, pilihan layanan) harus berupa angka yang valid dan dalam rentang pilihan.
+   
+a.  Input tidak boleh kosong.
+
+ <img width="581" height="249" alt="image" src="https://github.com/user-attachments/assets/6385be57-e069-42a6-937d-c62eed0087de" />
+
+b.  Input angka (menu, pilihan waktu, pilihan layanan) harus berupa angka yang valid dan dalam rentang pilihan.
+
+ <img width="821" height="478" alt="image" src="https://github.com/user-attachments/assets/45183d21-0ff9-44f2-8f76-101f20427658" />
+
 
 2. Fitur Search
-User dapat mencari reservasi berdasarkan nama customer.
+- Disini saya menambahan fitu tambahan pada user menu untuk mencari reservasi berdasarkan nama customer.
+ <img width="758" height="459" alt="image" src="https://github.com/user-attachments/assets/432fda24-b096-4575-af2d-9366030721aa" />
+
+## Alur Program
+a. Saat dijalankan, user akan melihat menu utama dengan 5 pilihan.
+b. Tambah Reservasi
+- User memilih menu Tambah Reservasi.
+- user memasukkan input nama customer.
+- User memasukkan input tanggal reservasi.
+- Program menampilkan daftar waktu reservasi yang tersedia, lalu user memilih salah satunya.
+- Program menampilkan daftar layanan kecantikan yang tersedia, lalu user memilih salah satunya.
+  
+c. Lihat Reservasi
+- Program menampilkan daftar semua data reservasi yang tersimpan (nama customer, tanggal, waktu, dan layanan).
+Jika belum ada data, program menampilkan pesan bahwa daftar reservasi masih kosong.
+
+d. Ubah Reservasi
+- Program menampilkan daftar reservasi yang sudah ada.
+- User memilih nomor reservasi yang ingin diubah.
+- Program meminta input data baru (nama, tanggal, waktu, dan layanan).
+- Data lama diganti dengan data baru sesuai input user, lalu ditampilkan pesan konfirmasi bahwa reservasi berhasil diubah.
+
+e. Hapus Reservasi
+- Program menampilkan daftar reservasi yang ada.
+- User memilih nomor reservasi yang ingin dihapus.
+- Data tersebut dihapus dari ArrayList, lalu ditampilkan pesan konfirmasi bahwa reservasi berhasil dihapus.
+
+f. Cari Reservasi
+- User menginput hanya dengan memasukkan nama customer yang telah reservasi.
+
+f. Keluar dilakukan untuk mengakhiri program.
+
 
 
 
