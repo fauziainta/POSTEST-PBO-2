@@ -33,18 +33,8 @@ Program ini ialah aplikasi Java untuk melakukan sebuah program CRUD sederhana un
  <img width="495" height="127" alt="image" src="https://github.com/user-attachments/assets/9b6ad88f-0cd6-4b2f-ae45-98681aaddcc7" />
 
 ## Penerapan Nilai Tambah
-1. Validasi Input
-   
-a.  Input tidak boleh kosong.
 
- <img width="581" height="249" alt="image" src="https://github.com/user-attachments/assets/6385be57-e069-42a6-937d-c62eed0087de" />
-
-b.  Input angka (menu, pilihan waktu, pilihan layanan) harus berupa angka yang valid dan dalam rentang pilihan.
-
- <img width="821" height="478" alt="image" src="https://github.com/user-attachments/assets/45183d21-0ff9-44f2-8f76-101f20427658" />
-
-
-2. Fitur Search
+1. Fitur Search
 - Disini saya menambahan fitu tambahan pada user menu untuk mencari reservasi berdasarkan nama customer.
  <img width="758" height="459" alt="image" src="https://github.com/user-attachments/assets/432fda24-b096-4575-af2d-9366030721aa" />
 
